@@ -1,0 +1,74 @@
+@model ReflectionIT.Mvc.Paging.PagingList<WebApplication8.Models.Database.Products>
+@using ReflectionIT.Mvc.Paging
+@addTagHelper *, ReflectionIT.Mvc.Paging
+
+@{
+    ViewData["Title"] = "Products";
+}
+
+<h2>Products</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form method="get" class="form-inline">
+    <input name="filter" class="form-control" placeholder="filter" 
+           value="@Model.RouteValue["Filter"]" />
+    <button type="submit" class="btn btn-info">
+        <span class="glyphicon glyphicon-search" aria-hidden="true"></span> Search
+    </button>
+</form>
+
+<nav aria-label="Products navigation example">
+    <vc:pager paging-list="@Model" />
+</nav>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.SortableHeaderFor(model => model.ProductName, this.Model)
+            </th>
+            <th>
+                @Html.SortableHeaderFor(model => model.Supplier.CompanyName, 
+                               "Supplier.CompanyName, ProductName", this.Model)
+            </th>
+            <th>
+                @Html.SortableHeaderFor(model => model.Category.CategoryName, 
+                              "Category.CategoryName, ProductName", this.Model)
+            </th>
+            <th>
+                @Html.SortableHeaderFor(model => model.UnitPrice, this.Model)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProductName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Supplier.CompanyName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category.CategoryName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UnitPrice)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ProductId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ProductId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<nav aria-label="Products navigation example">
+    @Html.Partial("SmallPager", this.Model)
+</nav>

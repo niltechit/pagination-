@@ -1,0 +1,17 @@
+C:\Users\mdjak\Downloads\PagingDemo\WebApplication8\bin\Debug\netcoreapp1.1\appsettings.Development.json
+C:\Users\mdjak\Downloads\PagingDemo\WebApplication8\bin\Debug\netcoreapp1.1\appsettings.json
+C:\Users\mdjak\Downloads\PagingDemo\WebApplication8\bin\Debug\netcoreapp1.1\bower.json
+C:\Users\mdjak\Downloads\PagingDemo\WebApplication8\bin\Debug\netcoreapp1.1\bundleconfig.json
+C:\Users\mdjak\Downloads\PagingDemo\WebApplication8\bin\Debug\netcoreapp1.1\WebApplication8.deps.json
+C:\Users\mdjak\Downloads\PagingDemo\WebApplication8\bin\Debug\netcoreapp1.1\WebApplication8.runtimeconfig.json
+C:\Users\mdjak\Downloads\PagingDemo\WebApplication8\bin\Debug\netcoreapp1.1\WebApplication8.runtimeconfig.dev.json
+C:\Users\mdjak\Downloads\PagingDemo\WebApplication8\bin\Debug\netcoreapp1.1\WebApplication8.dll
+C:\Users\mdjak\Downloads\PagingDemo\WebApplication8\bin\Debug\netcoreapp1.1\WebApplication8.pdb
+C:\Users\mdjak\Downloads\PagingDemo\WebApplication8\obj\Debug\netcoreapp1.1\WebApplication8.csproj.AssemblyReference.cache
+C:\Users\mdjak\Downloads\PagingDemo\WebApplication8\obj\Debug\netcoreapp1.1\WebApplication8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mdjak\Downloads\PagingDemo\WebApplication8\obj\Debug\netcoreapp1.1\WebApplication8.AssemblyInfoInputs.cache
+C:\Users\mdjak\Downloads\PagingDemo\WebApplication8\obj\Debug\netcoreapp1.1\WebApplication8.AssemblyInfo.cs
+C:\Users\mdjak\Downloads\PagingDemo\WebApplication8\obj\Debug\netcoreapp1.1\WebApplication8.csproj.CoreCompileInputs.cache
+C:\Users\mdjak\Downloads\PagingDemo\WebApplication8\obj\Debug\netcoreapp1.1\WebApplication8.dll
+C:\Users\mdjak\Downloads\PagingDemo\WebApplication8\obj\Debug\netcoreapp1.1\WebApplication8.pdb
+C:\Users\mdjak\Downloads\PagingDemo\WebApplication8\obj\Debug\netcoreapp1.1\WebApplication8.genruntimeconfig.cache
